@@ -1,0 +1,339 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+section > .container {
+  width: 100%;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  background-color: #364fc7;
+  display: grid;
+  grid-template-columns: 48% 25% 25%;
+  gap: 15px;
+  padding: 15px;
+}
+
+.timeline {
+  grid-row: span 2;
+}
+/* Điều chỉnh Goal*/
+.goal {
+  background-color: #e7f5ff;
+  padding: 2%;
+}
+.goal-title {
+  font-size: 18px;
+  padding: 2%;
+  border-bottom: 1px solid #000;
+}
+.goal-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.goal1,
+.goal2,
+.goal3 {
+  display: flex;
+  gap: 3%;
+  align-items: start;
+  padding: 2%;
+  border-bottom: 1px solid #adb5bd;
+}
+
+/* Điều chỉnh Team*/
+.team {
+  background-color: #e7f5ff;
+  padding: 4%;
+}
+
+.team-title {
+  font-size: 18px;
+  padding: 4%;
+  border-bottom: 1px solid #000;
+}
+.team-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 6%;
+}
+
+.team1,
+.team2,
+.team3,
+.team4 {
+  display: flex;
+  gap: 6%;
+  align-items: start;
+  padding: 4%;
+  border-bottom: 1 solid #adb5bd;
+}
+
+/*Chỉnh Timeline*/
+.timeline {
+  background-color: #e7f5ff;
+  padding: 4%;
+}
+
+.timeline-title {
+  font-size: 18px;
+  padding: 4%;
+  border-bottom: 1px solid #000;
+}
+
+.timeline-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 6% 0;
+}
+
+.timeline1,
+.timeline2,
+.timeline3,
+.timeline3,
+.timeline4,
+.timeline5,
+.timeline6,
+.timeline7 {
+  display: flex;
+  align-items: start;
+  gap: 3%;
+  padding: 5% 2%;
+  border-bottom: 1px solid #000;
+}
+
+.timeline-logo {
+  color: #fff;
+  background-color: #364fc7;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+/*Chỉnh Scopes*/
+.scopes {
+  background-color: #e7f5ff;
+  padding: 2%;
+}
+
+.scopes-title {
+  font-size: 18px;
+  padding: 2%;
+  border-bottom: 1px solid #000;
+}
+
+.scopes-detail {
+  display: flex;
+  padding: 3%;
+  gap: 15px;
+}
+
+.scopes-in,
+.scopes-out {
+  width: 50%;
+}
+
+/*Chỉnh sử primary*/
+.primary {
+  background-color: #e7f5ff;
+  padding: 4%;
+}
+
+.primary-title {
+  font-size: 18px;
+  padding: 4%;
+  border-bottom: 1px solid #000;
+}
+
+.primary-detail {
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+}
+
+.primary-1,
+.primary-2 {
+  display: flex;
+  gap: 3%;
+  align-items: start;
+  padding: 2%;
+}
+
+/*Màn hình cho Tablet*/
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  /*Điều chỉnh Goal cho mobile*/
+  .goal {
+    order: 0;
+  }
+  .goal1,
+  .goal2,
+  .goal3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*Điều chỉnh Scopes cho mobile*/
+  .scopes {
+    order: 1;
+  }
+  .scopes-detail {
+    display: flex;
+    flex-direction: column;
+  }
+  .scopes-in,
+  .scopes-out {
+    width: 100%;
+  }
+
+  /*Điều chỉnh Team cho mobile*/
+  .team {
+    order: 2;
+  }
+  .team1,
+  .team2,
+  .team3,
+  .team4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-logo {
+    align-self: center;
+  }
+
+  /*Điều chỉnh Primary cho mobile*/
+  .primary {
+    order: 3;
+  }
+
+  .primary-1,
+  .primary-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*Điều chỉnh Timeline cho mobile*/
+  .timeline {
+    order: 4;
+  }
+
+  .timeline1,
+  .timeline2,
+  .timeline3,
+  .timeline4,
+  .timeline5,
+  .timeline6,
+  .timeline7 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*Màn hình cho Mobile */
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  /*Điều chỉnh Goal cho mobile*/
+  .goal {
+    order: 0;
+  }
+  .goal1,
+  .goal2,
+  .goal3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*Điều chỉnh Scopes cho mobile*/
+  .scopes {
+    order: 1;
+  }
+  .scopes-detail {
+    display: flex;
+    flex-direction: column;
+  }
+  .scopes-in,
+  .scopes-out {
+    width: 100%;
+  }
+
+  /*Điều chỉnh Team cho mobile*/
+  .team {
+    order: 2;
+  }
+  .team1,
+  .team2,
+  .team3,
+  .team4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-logo {
+    align-self: center;
+  }
+
+  /*Điều chỉnh Primary cho mobile*/
+  .primary {
+    order: 3;
+  }
+
+  .primary-1,
+  .primary-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*Điều chỉnh Timeline cho mobile*/
+  .timeline {
+    order: 4;
+  }
+
+  .timeline1,
+  .timeline2,
+  .timeline3,
+  .timeline4,
+  .timeline5,
+  .timeline6,
+  .timeline7 {
+    display: flex;
+    flex-direction: column;
+  }
+}

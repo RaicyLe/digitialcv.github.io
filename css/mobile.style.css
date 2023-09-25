@@ -1,0 +1,165 @@
+@media (max-width: 768px) {
+  /*Navbar*/
+  nav i {
+    zoom: 1;
+  }
+  nav {
+    margin: 0;
+    height: 5%;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #3bc9db;
+    display: block;
+    align-items: start;
+  }
+
+  .nav-bar {
+    display: block;
+    align-items: left;
+  }
+
+  .nav-item {
+    width: 100%;
+    border: none;
+    justify-content: left;
+  }
+
+  .nav-ava,
+  .nav-other {
+    display: none;
+  }
+
+  /* Goal & personal info*/
+  .section-1-goal {
+    padding-left: 3%;
+    padding-bottom: 5%;
+  }
+  .section-1-personalinfo {
+    padding-left: 3%;
+    padding-right: 0;
+  }
+  .section-1-personalinfo ul {
+    text-indent: 0;
+    padding-left: 25px;
+  }
+  .section-1-personalinfo li {
+    padding-left: 25px;
+  }
+
+  /*Chỉnh Certificate*/
+  .java-cer-img {
+    padding-left: 15px;
+    border-left: 0;
+  }
+  .java-cer {
+    margin-top: 25px;
+    justify-items: center;
+    gap: none;
+    border-bottom: 1px solid #d6c08d;
+    padding-bottom: 15px;
+  }
+
+  /* Điều chỉnh section Dự án*/
+  .project-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+  }
+
+  .project-detail {
+    margin-top: 1%;
+  }
+
+  /*Điều chỉnh dự án 1*/
+  .project1 {
+    border: 1px solid #adb5bd;
+  }
+
+  .project1-title {
+    padding-top: 5%;
+    border-bottom: 1px solid #adb5bd;
+  }
+
+  .project1-info {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .project1-info-year {
+    display: inline-flex;
+    background-color: #3bc9db;
+    border-radius: 5cm;
+    padding: 0px 10px;
+  }
+
+  .project1-info-agency,
+  .project1-info-position {
+    display: inline-flex;
+    justify-items: center;
+  }
+
+  /*Điều chỉnh dự án 2*/
+  .project2 {
+    border: 1px solid #adb5bd;
+  }
+
+  .project2-title {
+    padding-top: 5%;
+    border-bottom: 1px solid #adb5bd;
+  }
+
+  .project2-info {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .project2-info-year {
+    display: inline-flex;
+    background-color: #3bc9db;
+    border-radius: 5cm;
+    padding: 1% 4%;
+  }
+
+  .project2-info-agency,
+  .project2-info-position {
+    display: inline-flex;
+    justify-items: center;
+  }
+
+  /*Điều chỉnh dự án 3*/
+  .project3 {
+    border: 1px solid #adb5bd;
+  }
+
+  .project3-title {
+    padding-top: 5%;
+    border-bottom: 1px solid #adb5bd;
+  }
+
+  .project3-info {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .project3-info-year {
+    display: inline-flex;
+    background-color: #3bc9db;
+    border-radius: 5cm;
+    padding: 1% 4%;
+  }
+
+  .project3-info-agency,
+  .project3-info-position {
+    display: inline-flex;
+    justify-items: center;
+  }
+}

@@ -1,0 +1,156 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  /*Chỉnh Nav*/
+  nav i {
+    zoom: 1;
+  }
+  nav {
+    margin: 0;
+    width: 100%;
+    height: 5%;
+    text-transform: uppercase;
+    font-size: 14px;
+    justify-content: center;
+    color: #3bc9db;
+    text-align: center;
+    position: relative;
+  }
+  .nav-ava {
+    display: none;
+  }
+
+  .nav-other {
+    display: none;
+  }
+  .nav-item {
+    width: 20%;
+    display: inline-flex;
+  }
+  /* Goal & personal info*/
+
+  .section-1-goal {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5;
+  }
+
+  .section-1-personalinfo {
+    background-color: #ced4da;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5;
+  }
+
+  /*Điều chỉnh certificate*/
+  .java-cer-img {
+    padding-left: 15px;
+    border-left: 1px solid #d6c08d;
+  }
+
+  /* Điều chỉnh section Dự án*/
+  .project-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+  }
+
+  .project-detail {
+    margin-top: 1%;
+  }
+
+  /*Điều chỉnh dự án 1*/
+  .project1 {
+    border: 1px solid #adb5bd;
+  }
+
+  .project1-title {
+    padding-top: 5%;
+    border-bottom: 1px solid #adb5bd;
+  }
+
+  .project1-info {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .project1-info-year {
+    grid-column: 1;
+    grid-row: span 2;
+    display: inline-flex;
+    background-color: #3bc9db;
+    border-radius: 5cm;
+    padding: 0px 10px;
+  }
+
+  .project1-info-agency,
+  .project1-info-position {
+    display: inline-flex;
+    justify-items: center;
+  }
+
+  /*Điều chỉnh dự án 2*/
+  .project2 {
+    border: 1px solid #adb5bd;
+  }
+
+  .project2-title {
+    padding-top: 5%;
+    border-bottom: 1px solid #adb5bd;
+  }
+
+  .project2-info {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .project2-info-year {
+    display: inline-flex;
+    background-color: #3bc9db;
+    border-radius: 5cm;
+    padding: 1% 4%;
+  }
+
+  .project2-info-agency,
+  .project2-info-position {
+    display: inline-flex;
+    justify-items: center;
+  }
+
+  /*Điều chỉnh dự án 3*/
+  .project3 {
+    border: 1px solid #adb5bd;
+  }
+
+  .project3-title {
+    padding-top: 5%;
+    border-bottom: 1px solid #adb5bd;
+  }
+
+  .project3-info {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .project3-info-year {
+    display: inline-flex;
+    background-color: #3bc9db;
+    border-radius: 5cm;
+    padding: 1% 4%;
+  }
+
+  .project3-info-agency,
+  .project3-info-position {
+    display: inline-flex;
+    justify-items: center;
+  }
+}
